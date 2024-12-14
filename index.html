@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroun Malki | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts pour les icônes  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- logo bare de recherche -->
+    <link rel="shortcut icon" href="Logo Aroun.png">
+</head>
+<body>
+    <!-- Canvas des particules -->
+    <div class="particle-background">
+        <canvas id="particleCanvas"></canvas>
+    </div>
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <div class="container">
+            <div class="name">Aroun Malki</div>
+            <div class="tagline">Web Developer &#8226; Autodidacte</div>
+
+            <div class="social-links">
+                <!-- Bouton Email -->
+                <div class="button-wrapper">
+                    <button class="info-button" onclick="openMail()">
+                        <span class="material-icons">mail</span>
+                    </button>
+                    <div class="info-text">malki.aro@icloud.com</div>
+                </div>
+                <!-- Bouton Téléphone -->
+                <div class="button-wrapper">
+                    <button class="info-button" onclick="copyToClipboard('0610724738')">
+                        <span class="material-icons">phone</span>
+                    </button>
+                    <div class="info-text">0610724738</div>
+                </div>
+                <!-- Bouton Instagram -->
+                <div class="button-wrapper">
+                    <button class="info-button" onclick="openInstagram()">
+                        <span class="material-icons">link</span>
+                    </button>
+                    <div class="info-text">
+                        <a href="https://www.instagram.com/aroun_mlk_/" target="_blank">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
